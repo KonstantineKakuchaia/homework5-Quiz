@@ -58,6 +58,15 @@ const questions = [
       { text: "რომი", correct: true },
     ],
   },
+  {
+    question: "რომელია ამერიკის დედაქალაქი?",
+    answers: [
+      { text: "პეკინი", correct: false },
+      { text: "ბერლინი", correct: false },
+      { text: "ვაშინტონი", correct: false },
+      { text: "ხაშური", correct: true },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("questions");
